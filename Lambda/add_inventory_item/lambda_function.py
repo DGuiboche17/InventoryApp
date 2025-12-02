@@ -3,7 +3,7 @@ import boto3
 import uuid
 from decimal import Decimal
 
-def lambda_handler(event):
+def lambda_handler(event, context):
     try:
 
         ## will this make it to lambda?

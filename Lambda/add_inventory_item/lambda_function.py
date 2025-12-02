@@ -6,7 +6,7 @@ from decimal import Decimal
 def lambda_handler(event, context):
     try:
 
-        ## will this make it to lambda?
+        ## will this make it to lambda? or no??
 
         data = json.loads(event.get("body", "{}"))
 

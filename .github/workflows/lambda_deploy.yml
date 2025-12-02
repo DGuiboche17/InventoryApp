@@ -5,12 +5,11 @@ on:
     branches:
       - 'main'
     paths:
-      - 'lambda/get_all_inventory_items/lambda_function.py'
-      - 'lambda/add_inventory_item/lambda_function.py'
-      - 'lambda/delete_inventory_item/lambda_function.py'
-      - 'lambda/get_location_inventory_items/lambda_function.py'
-      - 'lambda/get_inventory_item/lambda_function.py'
-
+      - 'Lambda/get_all_inventory_items/lambda_function.py'
+      - 'Lambda/add_inventory_item/lambda_function.py'
+      - 'Lambda/delete_inventory_item/lambda_function.py'
+      - 'Lambda/get_location_inventory_items/lambda_function.py'
+      - 'Lambda/get_inventory_item/lambda_function.py'
 jobs:
   deploy:
     runs-on: ubuntu-latest

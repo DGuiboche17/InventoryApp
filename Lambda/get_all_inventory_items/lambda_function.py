@@ -4,8 +4,8 @@ import json
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('Inventory')
 
-## will this make it to lambda? or no??
 
+## changes for a PR test
 def lambda_handler(event, context):
     try:
         response = table.scan() 

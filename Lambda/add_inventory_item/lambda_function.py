@@ -6,8 +6,8 @@ from decimal import Decimal
 def lambda_handler(event, context):
     try:
 
-        ## This is new comment not in lambda but when pushed it will be pushed to lambda
-        
+        ## will this make it to lambda?
+
         data = json.loads(event.get("body", "{}"))
 
         location_id = int(data['location_id'])
